@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Style the main title */
+h1 {
+    text-align: center;
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+}
+
+/* Style the form container */
+#login-form, #account-summary, #fund-transfer, #bill-payments, #loan-application {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style form headers */
+h2 {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* Style form inputs */
+input[type="text"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style buttons */
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003e80;
+}
+
+/* Add some space between paragraphs */
+p {
+    margin: 10px 0;
+}
